@@ -1,4 +1,4 @@
-# influ-to
+# InfluTo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-influ-to is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://influ.to/
+InfluTo provides an affiliate program platform for mobile app developers on iOS and Android. Creators can share referral links or codes, and InfluTo tracks subscriptions, verifies purchases, and pays recurring commissions. The service is free to start with a 10% commission on earned revenue, offering tools for attribution, reporting, and payout management.
+
+**Areas:** Affiliate · Mobile · iOS · Android · Marketing
+
+## InfluTo on APIs.io
+
+Everything profiled for InfluTo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/influ-to/](https://apis.io/providers/influ-to/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [InfluTo API](https://apis.io/apis/influ-to/influto-api/) — InfluTo affiliate platform API documented at the developer reference.
+- [InfluTo API](https://apis.io/apis/influ-to/influ-to-api/) — InfluTo API as documented publicly: 20 operations. Contract generated from the documentation by API Evangelist (2026-11-12); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetSdkAttributionResponse](https://apis.io/schemas/influ-to/influ-to-get-sdk-attribution-response/)
+- [PostSdkEventRequest](https://apis.io/schemas/influ-to/influ-to-post-sdk-event-request/)
+- [PostSdkInitRequest](https://apis.io/schemas/influ-to/influ-to-post-sdk-init-request/)
+- [PostSdkPurchaseRequest](https://apis.io/schemas/influ-to/influ-to-post-sdk-purchase-request/)
+- [PostSdkPurchaseResponse](https://apis.io/schemas/influ-to/influ-to-post-sdk-purchase-response/)
+- [PostSdkSetReferralCodeResponse](https://apis.io/schemas/influ-to/influ-to-post-sdk-set-referral-code-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Influ To Context](https://apis.io/jsonld/influ-to/influ-to-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [InfluTo API Rules](https://apis.io/rules/influ-to/influ-to-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [InfluTo Domain Security](https://apis.io/security/influ-to/influ-to-domain-security/)
+- [InfluTo Trust Center](https://apis.io/security/influ-to/influ-to-trust-center/)
+- [InfluTo Vulnerability Disclosure](https://apis.io/security/influ-to/influ-to-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [InfluTo Plans Pricing](https://apis.io/plans/influ-to/influ-to-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://influ.to/)
+- [Documentation](https://docs.influ.to/)
+- [Getting started](https://docs.influ.to/quick-start)
+- [API reference](https://docs.influ.to/agents/tools.md)
+- [Pricing](https://influ.to/pricing)
+- [Sign up](https://influ.to/auth/signup?type=developer)
+- [Support](https://influ.to/help)
+- [Blog](https://influ.to/blog/)
+- [Security](https://influ.to/security)
+- [Compliance](https://influ.to/security)
+- [Terms of service](https://influ.to/terms)
+- [Privacy policy](https://influ.to/privacy)
+- [GitHub](https://github.com/influto)
+
+## API Evangelist rating
+
+**Kin Score 57.1** — strong · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 79.5 |
+
+**Agent readiness 30.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/influ-to/](https://apis.io/providers/influ-to/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for InfluTo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/influ-to/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
